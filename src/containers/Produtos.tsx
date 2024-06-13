@@ -20,6 +20,8 @@ const ProdutosComponent = ({ favoritos, favoritar }: Props) => {
     return IdsDosFavoritos.includes(produtoId)
   }
 
+
+
   return (
     <>
       <S.Produtos>
